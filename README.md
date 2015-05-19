@@ -1,2 +1,2 @@
-# GoSnippet
-GoSnippet
+# GoCodeSnippets
+GoCodeSnippets
