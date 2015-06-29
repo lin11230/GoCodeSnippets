@@ -14,3 +14,11 @@ func TestFibFunc(t *testing.T) {
 		}
 	}
 }
+
+func BenchmarkFibFunc(b *testing.B) {
+	fn := FibFunc()
+
+	for i := 0; i < b.N; i++ {
+		_ = fn()
+	}
+}
